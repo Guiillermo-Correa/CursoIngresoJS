@@ -1,10 +1,9 @@
 function Mostrar()
 {
 //tomo la edad  
-	var mesDelAño = document.getElementById('mes').value;
-	
-
-	switch(mesDelAño)
+var mesDelAño;
+mesDelAño=document.getElementById('mes').value;
+switch(mesDelAño)
 	{
 		case"Enero":
 		case"Febrero":
@@ -33,5 +32,6 @@ function Mostrar()
 
 
 
-}
-//FIN DE LA FUNCIÓN
+
+
+}//FIN DE LA FUNCIÓN
