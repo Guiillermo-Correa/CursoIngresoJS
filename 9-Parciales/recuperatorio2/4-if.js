@@ -24,12 +24,12 @@ function Mostrar()
 			document.write("El  numero final es :" + numeroFinal);
 		}
 
-	else
+	if(numeroUno<numeroDos)
 		{
 			numeroFinal=numeroUno+numeroDos;
 			document.write("El  numero final es :" + numeroFinal);
 		}
-		
+		 
 
 		
 }
